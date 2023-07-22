@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+ <header class="header">
+    <div class="header-1">
+        <a href="#" class="logo"><i class="fas fa-book">Bookly</i></a>
+        <form action="" class="search-form">
+            <input type="search" name="" id="search-for" placeholder="Search Here .......">
+            <label for="search-for" class="fas fa-search"></label>
+        </form>
+        <div class="icons">
+            <div  id='search-btn'class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#featured">Features</a>
+            <a href="#arrivals">Arrivals</a>
+            <a href="#reviews"> Reviews</a>
+            <a href="#blogs"> Blogs</a>
+        </nav>
+    </div>
+
+ </header>  
+ <nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blogs"></a>
+
+ </nav> 
+  <div class="login-form-container">
+    <div id="close-login-btn" class=" fas fa-times"></div>
+    <form action="">
+        <h3>Sign In</h3>
+        <span>username</span>
+        <input type="text" name="" id="" class='box'  placeholder="enter your name">
+        <span>password</span>
+        <input type="password" name="" id="" class='box' placeholder="enter your name">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me">Remember Me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget your password? <a href="#"> click here</a></p>
+        <p>dont have an account ? <a href="#">create new</a></p>
+    </form>
+  </div>
+  <section class="home"id="home">
+    <div class="row">
+        <div class="content">
+            <h3>Discount Blah blah </h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque voluptatum tempora optio earum nemo eum molestias exercitationem consequatur labore illum quod aspernatur repellendus tempore quidem ab, quasi perspiciatis quas, aut nisi expedita odio vel! Ab inventore minima temporibus, cupiditate reiciendis possimus accusamus quibusdam? Beatae illo quaerat, doloremque voluptas neque maxime ea voluptates nobis quisquam?
+            </p>
+            <a class="btn" href="#">Shop Now</a>
+        </div>
+        <div class="swiper  books-slider">
+            <div class="swiper-wrapper  wraper">
+                <a href="#" class="swiper-slide" ><img src="./assets/dog.jpg"/> </a>
+                <a href="#" class="swiper-slide"><img src="./assets/dog.jpg" /> </a>
+                <a href="#" class="swiper-slide"><img src="./assets/dog.jpg" /> </a>
+                <a href="#" class="swiper-slide"><img src="./assets/dog.jpg" /> </a>
+                <a href="#" class="swiper-slide"><img src="./assets/dog.jpg" /> </a>
+                <a href="#" class="swiper-slide"><img src="./assets/dog.jpg" /> </a>
+
+            </div>
+            <img src="./assets/dog.jpg"class="stand" alt="No Image"/>
+        </div>
+    </div>
+  </section>
+  <section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>Free Shopping</h3>
+            <p>Order Us </p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Secure Payment</h3>
+            <p> 100% Secure </p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Easy Return </h3>
+            <p>5 Days Return </p>
+        </div>
+    </div>
+    <div class="icons">
+        <i class="fas fa-headset"></i>
+        <div class="content">
+            <h3>24/7 Support</h3>
+            <p>Call Us Anytime </p>
+        </div>
+    </div>
+  </section>
+  <!-- Featured Section Start -->
+  <section class="featured" id="featured">
+    <h1 class="heading"> <span>Featured Book</span></h1>
+    <div class=" swiper featured-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide  box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image"/>
+
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+            
+                </div>
+                <div class="content">
+                    <h3>Featured Books</h3>
+                    <div class="price"> 300Birr <span>350Birr</span></div>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+  </section>
+  <!--Newsletter Section Start  -->
+  <section class="newsletter">
+    <form action="">
+        <h3>Follow Us For Latest Update</h3>
+        <input type="email" name="" id="" placeholder="enter your email" class="box"/>
+        <input type="submit" value="subscribe"  class="btn"/>
+
+    </form>
+  </section>
+  <!-- Arivals Section Start -->
+  <section class="arrivals" id="arrivals">
+    <h1 class="heading"> <span>New Arivals</span></h1>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image"/>
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+
+
+
+
+                    </div>
+                </div>
+
+            </a>
+
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wraper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+    
+    
+    
+    
+                    </div>
+                </div>
+    
+            </a>
+    
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="arrivals-slider">
+        <div class="wrapper">
+            <a href="#" class="box">
+                <div class="image">
+                    <img src="./assets/dog.jpg" alt="No Image" />
+                </div>
+                <div class="content">
+                    <h3>New Arrivals</h3>
+                    <div class="price">300 <span>350</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+  </section>
+<!--  Deal Section Start -->
+<section class="deal">
+    <div class="content">
+        <h3>Deal of The Day</h3>
+        <h1>Upto 50% Discount</h1>
+        <p>Some Paragraph About The deal over here Some Paragraph About The deal over here Some Paragraph About The deal over here Some Paragraph About The deal over here Some Paragraph About The deal over here</p>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="image">
+        <img src="./assets/dog.jpg"/>
+    </div>
+</section>
+<!-- Reviews Section Start  -->
+<section class=" reviews" id="reviews">
+    <h1 class="heading"><span>Client Reviews</span></h1>
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image"/>
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+            <div class="swiper-slide box">
+                <img src="./assets/dog.jpg" alt="No Image" />
+                <h3>Monkey.D.Luffy </h3>
+                <p>some Reviews about our books ......some Reviews about our books ......some Reviews about our books ......some
+                    Reviews about our books ......</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section Start -->
+<section class="blogs" id="blogs">
+    <h1 class="heading"><span>Our Blogs</span></h1>
+    <div class="swiper blogs-slider">
+    <div class="swiper-wrapper">
+                <div class="swiper-slide  box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a>
+</p>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a></p>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a></p>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a></p>
+                       
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a></p>
+                       
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#">Read More</a></p>
+                       
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a></p>
+                       
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                        
+                        Blog Post Over Here <a href="#" >Read More</a></p>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#">Read More</a></p>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a></p>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="./assets/dog.jpg" alt="No Image" />
+                    </div>
+                    <div class="content">
+                        <h3>Our Blog Title Over Here</h3>
+                        <p>Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our Blog Post Over Here Body of Our
+                            Blog Post Over Here <a href="#" >Read More</a></p>
+                        
+                    </div>
+                </div>
+    </div>
+  
+
+    </div>
+</section>
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Our Locations</h3>
+            <a href="#" ><i class="fas fa-map-marker-alt">Dessie</i></a>
+            <a href="#"><i class="fas fa-map-marker-alt">Adiss Ababa</i></a>
+            <a href="#"><i class="fas fa-map-marker-alt">Hawassa</i></a>
+            <a href="#"><i class="fas fa-map-marker-alt">Adama</i></a>
+            <a href="#"><i class="fas fa-map-marker-alt">Bahr Dar</i></a>
+            <a href="#"><i class="fas fa-map-marker-alt">Asossa</i></a>
+        </div>
+        <div class="box">
+            <h3>Extra Info</h3>
+            <a href="#"><i class="fas fa-arrow-right">Order Items</i></a>
+            <a href="#"><i class="fas fa-arrow-right">Privacy Policy</i></a>
+            <a href="#"><i class="fas fa-arrow-right">Payment Method</i></a>
+            <a href="#"><i class="fas fa-arrow-right">Service</i></a>
+            <a href="#"><i class="fas fa-arrow-right">Donation</i></a>
+
+        </div>
+
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./index.js"></script>
+<!--  Home Section Start -->
+
+
+
+</body>
+</html>
